@@ -1,0 +1,54 @@
+.MainPageContainer {
+  background-color: #ffffff;
+  height: 100vh;
+}
+.register-main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LoginContainer {
+  display: flex;
+}
+.LoginImage {
+  height: 250px;
+  width: 250px;
+}
+.LoginFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.InputContainer {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.LabelElement {
+  color: #64748b;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.Input {
+  outline: none;
+  padding: 7px;
+  border: 1px solid #7b8794;
+}
+.SelectElement {
+  padding: 7px;
+  outline: none;
+}
+.RegisterNowButton {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.ErrorPara {
+  color: #ff0b37;
+  font-size: 12px;
+}

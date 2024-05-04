@@ -1,0 +1,35 @@
+.MainPageContainer {
+  background-color: #ffffff;
+  height: 100vh;
+}
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.HomeHeading {
+  color: aquamarine;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.HomePara {
+  color: #7b8794;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.Button {
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 7px;
+  padding: 7px;
+  cursor: pointer;
+}
+.HomeImg {
+  height:400px;
+    width:600px;
+    margin-top:10px;
+}
